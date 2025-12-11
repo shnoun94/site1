@@ -129,6 +129,21 @@ margin-left: 114px;
 .deux{
     position: absolute;
     top:643px;
-    left: 497px;
+    left: 390px;
     overflow: hidden;
+}
+.deux .etoile{
+    margin-left: 110px;
+} 
+.trois{
+       position: absolute;
+    top:644px;
+    left:880px ;
+    overflow: hidden;
+}
+.quatre{
+          position: absolute;
+    top:644px;
+    left:1274px ;
+    overflow: hidden; 
 }
