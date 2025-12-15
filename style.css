@@ -1,4 +1,5 @@
-*, html{
+*,
+html {
     box-sizing: border-box;
 }
 
@@ -15,22 +16,14 @@ header {
 .logo {
     width: 5.25rem;
     height: 1.938rem;
-    margin-top:1.563rem;
+    margin-top: 1.563rem;
 }
 
-/* .logo {
-    width: 5.25rem;
-    height: 1.938rem;
-    padding-right: 6.125rem;
-    margin-left: 00px; 
-    padding-top: 1.563rem;
-    margin-left: 10rem;
-} */
 
 .p1 {
     padding-top: 20px;
     padding-left: 25px;
-    font-family:"Montserrat-ExtraBold.ttf", sans-serif;
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
     color: white;
     font-size: 15px;
     width: 110px;
@@ -52,16 +45,8 @@ header {
 .search1 {
     width: 2rem;
     left: 2rem;
-    
-}
 
-/* .search1 { */
-    /* width: 22,06px;
-    height: 24px;
-    padding-top: 28px;
-    padding-left: 1070px;
-    position: relative;
-} */
+}
 
 .Connexion {
     width: 130px;
@@ -87,19 +72,19 @@ header {
     width: 100%;
 }
 
-.SectionHéro img{
+.SectionHéro img {
     display: block;
     width: 100%;
 }
 
 .SectionHéro:after {
-position: absolute;
-content: "";
-width: 100%;
-height: 100%;
-top:0;
-left:0;
-background: linear-gradient(94.01deg, rgba(68, 221, 138, 0.8) 3.11%, rgba(21, 183, 226, 0.8) 98.45%);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(94.01deg, rgba(68, 221, 138, 0.8) 3.11%, rgba(21, 183, 226, 0.8) 98.45%);
 }
 
 .cc h1 {
@@ -109,17 +94,17 @@ background: linear-gradient(94.01deg, rgba(68, 221, 138, 0.8) 3.11%, rgba(21, 18
     padding-top: 100px;
     text-align: center;
     text-transform: uppercase;
-    font-family:"Montserrat-ExtraBold.ttf", sans-serif;
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
     padding-left: 300px;
     font-size: 48px;
 
 }
 
-.Contenu{
+.Contenu {
     width: 100%;
 }
 
-.Contenue{
+.Contenue {
     width: 100%;
 }
 
@@ -148,26 +133,28 @@ background: linear-gradient(94.01deg, rgba(68, 221, 138, 0.8) 3.11%, rgba(21, 18
     width: 486px;
     height: 72px;
     margin-left: 97px;
-    font-family:"Montserrat-ExtraBold.ttf", sans-serif;
-    
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
+
 
 
 
 }
-.formation{
-   display: grid;
+
+.formation {
+    display: grid;
     grid-template-columns: 200px 200px 200px 200px;
-    gap:150px;
+    gap: 150px;
     margin-left: 50px;
-   
+
 }
+
 .box {
-  height: 362px;
+    height: 362px;
 
 }
 
-p{
- width: 243px;
+p {
+    width: 243px;
 }
 
 .btn3 {
@@ -178,27 +165,29 @@ p{
     color: white;
     margin-left: 630px;
     margin-top: 80px;
-} 
+}
 
-.Contenue h2{
-    padding-top:10px;
+.Contenue h2 {
+    padding-top: 10px;
     width: 243px;
-} 
+}
 
 .formations {
     background-color: #152237;
     color: white;
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
-    gap:150px;
+    gap: 150px;
 
 
 }
-.box2{
+
+.box2 {
     margin-top: 136px;
     margin-left: 50px;
 }
-.btn4{
+
+.btn4 {
     width: 225px;
     height: 40px;
     border-radius: 6px;
@@ -207,90 +196,129 @@ p{
     margin-left: 550px;
     margin-top: -80px;
 }
-.avis{
+
+.avis {
     height: 597px;
 }
-.avis h1{
+
+.avis h1 {
     text-align: center;
-    font-family:"Montserrat-ExtraBold.ttf", sans-serif;
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
     font-weight: 900;
     text-transform: uppercase;
 }
-.client h2{
+
+.client h2 {
     text-align: left;
-    font-family:"Montserrat-ExtraBold.ttf", sans-serif;
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
     font-size: 24px;
 }
-.client{
+
+.client {
     display: grid;
-  grid-template-columns: 600px 600px;
-  gap:10px;
-  margin-left: 100px;     
+    grid-template-columns: 600px 600px;
+    gap: 10px;
+    margin-left: 100px;
 }
-.client1 p{
+
+.client1 p {
     width: 550px;
     height: 306px;
-    font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 
 }
 
-.client2 p{
+.client2 p {
     width: 550px;
     height: 306px;
-    font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
-.tout{
-  width: 616px;
-    height: 295px;
-}
-.klivio{
+
+.tout {
     width: 616px;
     height: 295px;
 }
-.juliette{
-     width : 150px; 
-     height : 150px;
-  border: none;
-  -moz-border-radius : 75px;
-  -webkit-border-radius : 75px;
-  border-radius : 75px;
-  
+
+.klivio {
+    width: 616px;
+    height: 295px;
 }
-.camille{
-     width : 150px; height : 150px;
-  border: none;
-  -moz-border-radius : 75px;
-  -webkit-border-radius : 75px;
-  border-radius : 75px;
-}
-.avantages{
-background-color: #F5F5F5;
-height: 641px;
+
+.juliette {
+    width: 150px;
+    height: 150px;
+    border: none;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
 
 }
-.avantages h2{
-    text-transform: uppercase;
-    font-family:"Montserrat-ExtraBold.ttf", sans-serif;
+
+.camille {
+    width: 150px;
+    height: 150px;
+    border: none;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+}
+
+.avantages {
+    background-color: #F5F5F5;
+    height: 641px;
+
+}
+
+.avantages h2 {
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
     text-transform: uppercase;
     font-size: 36px;
 }
-.icone{
-    display:flex;
+
+.icone {
+    display: flex;
     flex-direction: column;
     width: 30px;
     height: 30px;
-    
-    
+
+
 }
-.avantages ul{
-    list-style: none;
-    font-family:"Montserrat", sans-serif;
-    line-height: 38px;
-    margin-top: 5px;
-    margin-left: 163px;
+
+.avantages {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
 }
-.imgf{
-margin-left: 660px;
-object-position:right top ;
-margin-top: -350px;
+
+.avantages .fleche {
+    list-style-image: url("A7/icones/arrow-up-right.svg");
+
+
+}
+
+.avantages .crayon {
+    list-style-image: url("A7/icones/crayon.svg");
+   
+}
+
+.avantages .import {
+    list-style-image: url("A7/icones/exporter.svg");
+}
+
+.avantages .etoile {
+    list-style-image: url("A7/icones/star-02.svg");
+}
+
+.avantages .horloge {
+    list-style-image: url("A7/icones/clock.svg");
+}
+
+.avantages .mess {
+    list-style-image: url("A7/icones/mess.svg");
+}
+
+.imgf {
+    margin-left: 660px;
+    object-position: right top;
+    margin-top: -350px;
 }
