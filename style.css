@@ -134,6 +134,28 @@ header {
     padding-top: 30px;
     padding-left: 60px;
 }
+.Contenu .prix{
+ display: flex;
+width: 120px;
+height: 31px;
+background-color:#152237;
+border-radius: 30px;
+color:white;
+font-family: "Montserrat-ExtraBold.ttf", sans-serif;
+margin-top: -30px;
+position: absolute;
+margin-left: 160px; 
+}
+
+.prix .petit{
+    text-align: center;
+    margin-bottom: -20px;
+    text-decoration: line-through;
+    margin-left: 20px;
+    font-size: 10px;
+
+
+}
 
 .formation {
     display: grid;
@@ -165,6 +187,29 @@ header {
     width: 100%;
     background-color: #152237;
     color: white;
+}
+.Contenue .prix2{
+ display: flex;
+width: 120px;
+height: 31px;
+background-color:white;
+border-radius: 30px;
+color:#152237;
+font-family: "Montserrat-ExtraBold.ttf", sans-serif;
+margin-top: -30px;
+position: absolute;
+margin-left: 160px; 
+}
+.prix2 .grand{
+ font-family: "Montserratf", sans-serif;
+
+}
+.prix2 .petitt{
+      text-align: center;
+    margin-bottom: -20px;
+    text-decoration: line-through;
+    margin-left: 35px;
+    font-size: 10px;
 }
 
 .Contenue h2 {
@@ -274,17 +319,15 @@ header {
     height: 641px;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
-    padding-left: 70px;
+    padding-left: 30px;
 }
 
-.avantages .T {
-    margin-top: 50px;
-}
 
 .avantages h2 {
     font-family: "Montserrat-ExtraBold.ttf", sans-serif;
     text-transform: uppercase;
     font-size: 36px;
+    padding-top: 79px;
 }
 
 .avantages .fleche {
@@ -325,63 +368,64 @@ header {
 }
 
 .imgf {
-    margin-left: 640px;
+    margin-left: 620px;
     object-position: right top;
     margin-top: -370px;
-    max-width: 660px;
-    height: 442px;
+    width: 727px;
+    height: 472px;
 }
 
 .frmt {
     background-color: #44DD8A;
     text-align: right;
+    height:641px ;
 }
 
 .frmt-contenu {
     display: flex;
     flex-direction: row;
 }
-
-.frmt h3 {
-    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
-    text-transform: uppercase;
-    font-size: 40px;
+.frmt .taille{
+    margin-top: 100px;
 }
-
 .frmt li {
     text-align: start;
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
+}
+
+.frmt h3 {
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
 }
 
 
 .frmt .coin {
     list-style-image: url("A7/icones/coin.svg");
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .frmt .coeur {
     list-style-image: url("A7/icones/coeur.svg");
-    padding-left: 20px;
+    padding-left: 10px;
 
 }
 
 .frmt .crayon2 {
     list-style-image: url("A7/icones/crayon2.svg");
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .frmt .settings {
     list-style-image: url("A7/icones/settings.svg");
-    padding-left: 20px;
-    width: 616px;
+    padding-left: 10px;
 }
 
 .frmt .profil {
     list-style-image: url("A7/icones/profil.svg");
-    padding-left: 20px;
-    width: 616px;
+    padding-left: 10px;
 }
 
 .frmt .photo {
@@ -394,8 +438,12 @@ header {
     height: 740px;
     display: flex;
     flex-direction: row;
+    background-color: #F5F5F5;
 }
-
+.propos .taille{
+    width:672px;
+    height: 295px;
+}
 .propos .txt {
     width: 686px;
     height: 372px;
@@ -413,8 +461,6 @@ header {
 .propos p {
     font-family: "Montserrat", sans-serif;
     line-height: 28px;
-    width: 686px;
-    height: 295px;
 }
 
 .propos .color {
@@ -435,6 +481,10 @@ header {
     font-size: 40px;
     text-align: center;
 }
+.l{
+    width: 350px;
+    color: #44DD8A;
+}
 
 .formulaire .name {
     background-color: #152237;
@@ -442,6 +492,7 @@ header {
     width: 550px;
     height: 45.25px;
     margin-left: 140px;
+    margin-top: 30px;
 }
 
 .formulaire .mail {
@@ -472,8 +523,17 @@ header {
     margin-left: 500px;
 }
 
+.vide {
+    height: 18px;
+    background: linear-gradient(to left, #44DD8A, #15B7E2);
+
+}
+
 .footer {
     background-color: #152237;
+    height: 489px;
+    margin-top: 90px;
+
 }
 
 .footer .info {
@@ -485,34 +545,93 @@ header {
 
 .footer h1 {
     font-family: "Montserrat-ExtraBold.ttf", sans-serif;
+    font-size: 15px;
 
 }
 
 .footer .info1 {
     color: white;
     list-style: none;
+    font-family: "Montserrat", sans-serif;
+    margin-left: -40px;
+
 }
 
 .footer .info2 {
     color: white;
+
 }
 
 .footer .marque {
     list-style-image: url("A7/icones/marker-02.svg");
     line-height: 30px;
+    font-family: "Montserrat", sans-serif;
+
 }
 
 .footer .tel {
     list-style-image: url("A7/icones/tel.svg");
     line-height: 30px;
+    font-family: "Montserrat", sans-serif;
+
 }
 
 .footer .mail {
     list-style-image: url("A7/icones/mail-01.svg");
+    font-family: "Montserrat", sans-serif;
+
 }
-.footer .log{
+
+.footer .log {
     width: 243px;
     height: 87px;
     margin-top: 109px;
     margin-left: 96px;
+}
+
+.footer .btn {
+    display: grid;
+    gap: 6px;
+    margin-left: 1150px;
+    margin-top: -170px;
+}
+
+.footer .co {
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.footer .ins {
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    background: linear-gradient(to left, #44DD8A, #15B7E2);
+}
+
+.ligne {
+    margin-top: 100px;
+    color: #44DD8A;
+    width: 1200px;
+}
+
+.fin {
+    color: white;
+}
+
+.fin .un {
+    margin-left: 96px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+.fin .deux{
+    margin-left: 1000px;
+    margin-top: -30px;
+    font-family: "Montserrat", sans-serif;
+}
+.fin .reseau{
+    display: flex;
+    gap:10px;
+    margin-left: 1120px;
+    margin-top: -40px;
 }
