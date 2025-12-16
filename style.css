@@ -28,8 +28,6 @@ header {
     color: white;
     font-size: 15px;
     width: 270px;
-  
-
 }
 
 .search {
@@ -48,7 +46,6 @@ header {
     width: 2rem;
     left: 2rem;
     margin-left: -40px;
-
 }
 
 .Connexion {
@@ -101,7 +98,6 @@ header {
     padding-left: 300px;
     font-size: 48px;
     z-index: 10;
-
 }
 
 .cc p {
@@ -113,7 +109,6 @@ header {
     text-transform: uppercase;
     z-index: 10;
     font-size: 20px;
-
 }
 
 .btn2 {
@@ -127,6 +122,7 @@ header {
     background-color: white;
     z-index: 10;
 }
+
 .Contenu {
     width: 100%;
 }
@@ -145,17 +141,15 @@ header {
     gap: 130px;
     margin-left: 50px;
     margin-top: 60px;
-
 }
 
 .box {
     height: 362px;
-
 }
 
 .box p {
     width: 243px;
-} 
+}
 
 .btn3 {
     width: 225px;
@@ -180,8 +174,9 @@ header {
     padding-top: 50px;
     padding-left: 50px;
 }
-.Contenu h3{
-    font-family: "Montserrat-ExtraBold.ttf", sans-serif; 
+
+.Contenu h3 {
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
 }
 
 
@@ -192,9 +187,9 @@ header {
     grid-template-columns: 200px 200px 200px 200px;
     gap: 130px;
     margin-top: -100px;
-
 }
-.formations .v{
+
+.formations .v {
     width: 260px;
 }
 
@@ -215,14 +210,11 @@ header {
 
 .avis {
     height: 530px;
-
-    
 }
 
 .avis h1 {
     text-align: center;
     font-family: "Montserrat-ExtraBold.ttf", sans-serif;
-    font-weight: 900;
     text-transform: uppercase;
     margin-top: 58px;
 }
@@ -245,7 +237,6 @@ header {
     width: 550px;
     height: 306px;
     font-family: "Montserrat", sans-serif;
-
 }
 
 .client2 p {
@@ -267,7 +258,6 @@ header {
     -moz-border-radius: 75px;
     -webkit-border-radius: 75px;
     border-radius: 75px;
-
 }
 
 .camille {
@@ -285,14 +275,16 @@ header {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     padding-left: 70px;
-
 }
 
-.avantages h2{
+.avantages .T {
+    margin-top: 50px;
+}
+
+.avantages h2 {
     font-family: "Montserrat-ExtraBold.ttf", sans-serif;
     text-transform: uppercase;
     font-size: 36px;
-    margin-top: 100px;
 }
 
 .avantages .fleche {
@@ -311,21 +303,18 @@ header {
     list-style-image: url("A7/icones/exporter.svg");
     padding-left: 20px;
     line-height: 40px;
-
 }
 
 .avantages .etoile {
     list-style-image: url("A7/icones/star-02.svg");
     padding-left: 20px;
     line-height: 40px;
-
 }
 
 .avantages .horloge {
     list-style-image: url("A7/icones/clock.svg");
     padding-left: 20px;
     line-height: 40px;
-
 }
 
 .avantages .mess {
@@ -333,8 +322,6 @@ header {
     padding-left: 20px;
     line-height: 40px;
     width: 550px;
-
-
 }
 
 .imgf {
@@ -347,10 +334,7 @@ header {
 
 .frmt {
     background-color: #44DD8A;
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
     text-align: right;
-
 }
 
 .frmt-contenu {
@@ -362,19 +346,19 @@ header {
     font-family: "Montserrat-ExtraBold.ttf", sans-serif;
     text-transform: uppercase;
     font-size: 40px;
-    padding-top: 5%;
 }
 
 .frmt li {
     text-align: start;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 
 .frmt .coin {
     list-style-image: url("A7/icones/coin.svg");
     padding-left: 20px;
-
-
 }
 
 .frmt .coeur {
@@ -400,8 +384,135 @@ header {
     width: 616px;
 }
 
-.frmt .become {
-    object-position: left;
-    max-width: 729%;
-    max-height: 487%;
+.frmt .photo {
+    width: 729px;
+    height: 487px;
+}
+
+.propos {
+
+    height: 740px;
+    display: flex;
+    flex-direction: row;
+}
+
+.propos .txt {
+    width: 686px;
+    height: 372px;
+    text-align: left;
+    margin-top: 160px;
+    margin-left: 70px;
+}
+
+.propos h2 {
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.propos p {
+    font-family: "Montserrat", sans-serif;
+    line-height: 28px;
+    width: 686px;
+    height: 295px;
+}
+
+.propos .color {
+    background-color: #152237;
+    width: 830px;
+}
+
+.propos .logo2 {
+    width: 430px;
+    height: 155px;
+    margin-top: 292px;
+    margin-left: 120px;
+}
+
+.formulaire h2 {
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+.formulaire .name {
+    background-color: #152237;
+    color: white;
+    width: 550px;
+    height: 45.25px;
+    margin-left: 140px;
+}
+
+.formulaire .mail {
+    background-color: #152237;
+    color: white;
+    width: 550px;
+    height: 45.25px;
+    margin-left: 50px;
+}
+
+.formulaire .mess {
+    background-color: #152237;
+    color: white;
+    width: 1151.92px;
+    height: 194.64px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.formulaire .Envoyer {
+    background-color: #44DD8A;
+    width: 351.56px;
+    height: 45.3px;
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
+    font-size: 15px;
+    margin-top: 100px;
+    border-radius: 6px;
+    margin-left: 500px;
+}
+
+.footer {
+    background-color: #152237;
+}
+
+.footer .info {
+    display: flex;
+    gap: 60px;
+    margin-left: 500px;
+    margin-top: -100px;
+}
+
+.footer h1 {
+    font-family: "Montserrat-ExtraBold.ttf", sans-serif;
+
+}
+
+.footer .info1 {
+    color: white;
+    list-style: none;
+}
+
+.footer .info2 {
+    color: white;
+}
+
+.footer .marque {
+    list-style-image: url("A7/icones/marker-02.svg");
+    line-height: 30px;
+}
+
+.footer .tel {
+    list-style-image: url("A7/icones/tel.svg");
+    line-height: 30px;
+}
+
+.footer .mail {
+    list-style-image: url("A7/icones/mail-01.svg");
+}
+.footer .log{
+    width: 243px;
+    height: 87px;
+    margin-top: 109px;
+    margin-left: 96px;
 }
